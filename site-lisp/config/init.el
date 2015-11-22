@@ -1,8 +1,8 @@
 (with-temp-message ""                   ;抹掉插件启动的输出
   ;; 必须加载的
   (require 'benchmark-init)
-  (require 'theme)
-  (require 'init-startup)
+  ;; (require 'theme)
+  ;; (require 'init-startup)
   (require 'lazy-set-key)
   (require 'one-key)
   (require 'paredit)
@@ -12,12 +12,12 @@
   (require 'highlight-parentheses)
 
   (require 'init-smex)
-  (require 'init-minibuffer-tray)
+  ;; (require 'init-minibuffer-tray)
   (require 'init-linum)
   (require 'init-flymake)
   (require 'init-auto-save)
   (require 'init-jedi)
-  (require 'init-tabbar)
+  ;; (require 'init-tabbar)
   (require 'init-mode)
   (require 'init-dired)
   (require 'init-session)

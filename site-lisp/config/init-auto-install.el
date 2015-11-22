@@ -85,7 +85,7 @@
 
 ;;; Code:
 
-(setq auto-install-directory "/usr/share/deepin-emacs/site-lisp/extensions/lazycat/") ;设置默认的安装目录
+(setq auto-install-directory "~/deepin-emacs/site-lisp/extensions/lazycat/") ;设置默认的安装目录
 (setq auto-install-from-w3m-confirm nil) ;从w3m安装不提醒
 (setq auto-install-save-confirm nil)     ;不需要确认保存
 (setq auto-install-install-compile nil)  ;默认不编译文件

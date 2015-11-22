@@ -181,7 +181,7 @@
         (("m" . "Linux Deepin") . (lambda () (interactive) (find-file "~/.emacs.d/deepin-emacs/Org/LinuxDeepin.org")))
         ))
 
-(defun one-key-menu-org-file ()
+  (defun one-key-menu-org-file ()
   "The `one-key' menu for ORG-FILE."
   (interactive)
   (one-key-menu "ORG-FILE" one-key-menu-org-file-alist t))
