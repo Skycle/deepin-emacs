@@ -31,6 +31,7 @@
   (require 'init-key)
   (require 'init-generic)
   (require 'init-auto-indent-mode)
+  (require 'init-ido)
 
   ;; 可以延后加载的
   (run-with-idle-timer
