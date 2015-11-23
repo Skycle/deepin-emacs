@@ -1,3 +1,4 @@
 *.elc
 *.pyc
 site-lisp/extensions/predictive/dict-english.el
+*~

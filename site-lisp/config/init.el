@@ -1,5 +1,6 @@
 (with-temp-message ""                   ;抹掉插件启动的输出
   ;; 必须加载的
+  (require 'init-elpa)
   (require 'benchmark-init)
   ;; (require 'theme)
   ;; (require 'init-startup)
@@ -49,7 +50,7 @@
        (require 'init-cursor-chg)
        (require 'init-winpoint)
        (require 'init-benchmark)
-
+       (require 'init-eww)
        (require 'init-idle)
        ))
   )
