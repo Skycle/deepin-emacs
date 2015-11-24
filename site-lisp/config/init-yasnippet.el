@@ -78,7 +78,7 @@
 
 ;;; Code:
 
-(add-to-list `yas/root-directory "/usr/share/deepin-emacs/site-lisp/extensions/yasnippet/snippets/")
+(add-to-list `yas/root-directory "~/deepin-emacs/site-lisp/extensions/yasnippet/snippets/")
 (yas-global-mode 1)
 
 ;; Disable yasnippet mode on some mode.

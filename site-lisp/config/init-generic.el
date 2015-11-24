@@ -103,6 +103,9 @@
 (setq default-tab-width 4)
 (setq-default initial-scratch-message
               (concat ";; Happy hacking " (or user-login-name "") " - Emacs loves you!\n\n"))
+
+;; Python
+(setq python-indent-offset 4)
 (provide 'init-generic)
 
 ;;; init-generic.el ends here

@@ -39,7 +39,6 @@
    #'(lambda ()
        (require 'pretty-lambdada)
        (require 'browse-kill-ring)
-
        (require 'init-tempbuf)
        (require 'init-doc-view)
        (require 'init-backup)
