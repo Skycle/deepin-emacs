@@ -88,7 +88,7 @@
 ;; Restore emacs session.
 (setq initial-buffer-choice "~")
 (run-with-timer 1 nil #'(lambda () (bury-buffer)))
-(emacs-session-restore)
+;;(emacs-session-restore)
 
 (fset 'yes-or-no-p 'y-or-n-p)                            ;以 y/n代表 yes/no
 (blink-cursor-mode -1)                                   ;指针不闪动
@@ -100,7 +100,9 @@
 (setq x-select-enable-clipboard t)                       ;支持emacs和外部程序的粘贴
 (setq split-width-threshold nil)                         ;分屏的时候使用上下分屏
 (add-hook 'find-file-hook 'highlight-parentheses-mode t) ;增强的括号高亮
-
+(setq default-tab-width 4)
+(setq-default initial-scratch-message
+              (concat ";; Happy hacking " (or user-login-name "") " - Emacs loves you!\n\n"))
 (provide 'init-generic)
 
 ;;; init-generic.el ends here

@@ -5,6 +5,8 @@
     (normal-top-level-add-subdirs-to-load-path)))
 (add-subdirs-to-load-path "~/deepin-emacs/site-lisp/")
 (add-subdirs-to-load-path "~/.emacs.d/elpa/")
+(require 'init)
 ;; 个人设置
 (require 'init-skycle)
-(require 'init)
+;; (global-set-key (kbd "\C-h") 'delete-backward-char)
+

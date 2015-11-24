@@ -116,6 +116,7 @@ ARCHIVE is the string name of the package archive.")
     lua-mode
     pomodoro
     helm
+    helm-gtags
     auto-compile
     packed
     gitconfig-mode
@@ -303,6 +304,8 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'anaconda-mode)
 (require-package 'company-anaconda)
 (require-package 'jedi)
+;; (require-package 'emms) 无
+;; (require-package 'auctex) 无
 
 ;; (require-package 'command-frequency)
 

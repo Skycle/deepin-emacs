@@ -53,6 +53,7 @@
        (require 'init-benchmark)
        (require 'init-eww)
        (require 'init-idle)
+;;       (require 'init-c-mode)
        ))
   )
 
