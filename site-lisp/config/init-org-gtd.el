@@ -1,4 +1,4 @@
-etq org-todo-keywords
+(setq org-todo-keywords
 (quote ((sequence "TODO(t)" "STARTED(s)" "NEWS(n)" "DEADLINE" "|" "DONE(d!/!)")
         (sequence "WAITING(w@/!)" "SOMEDAY(S)" "PROJECT(P@)" "|" "CANCELLED(c@/!)")
         ;; caigen add @20151008 begin
@@ -42,8 +42,6 @@ etq org-todo-keywords
 (setq org-directory "~/git/org")
 (setq org-default-notes-file "~/git/org/refile.org")
 
-;; I use C-c c to start capture mode
-(global-set-key (kbd "C-c c") 'org-capture)
 
 ;; Capture templates for: TODO tasks, Notes, appointments, phone calls, meetings, and org-protocol
 (setq org-capture-templates
@@ -260,3 +258,5 @@ etq org-todo-keywords
       '(elisp "lisp"
               emacs-lisp "lisp"))
 ;; }}
+
+(provide 'init-org-gtd)

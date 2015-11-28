@@ -3,7 +3,7 @@
   (require 'init-elpa)
   (require 'benchmark-init)
   (require 'init-theme)
-  ;; (require 'init-startup)
+  (require 'init-startup)
   (require 'lazy-set-key)
   (require 'one-key)
   (require 'paredit)
@@ -18,7 +18,7 @@
   (require 'init-flymake)
   (require 'init-auto-save)
   (require 'init-jedi)
-  ;; (require 'init-tabbar)
+  (require 'init-tabbar)
   (require 'init-mode)
   (require 'init-dired)
   (require 'init-session)
@@ -32,6 +32,11 @@
   (require 'init-generic)
   (require 'init-auto-indent-mode)
   (require 'init-ido)
+  (require 'init-org)
+  (require 'init-org-gtd)
+  (require 'init-org-tex)
+  (require 'init-org-key)
+  
 
   ;; 可以延后加载的
   (run-with-idle-timer
