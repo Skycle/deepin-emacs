@@ -89,6 +89,10 @@
 (setq initial-buffer-choice "~")
 (run-with-timer 1 nil #'(lambda () (bury-buffer)))
 ;;(emacs-session-restore)
+;;(tool-bar-mode nil)
+;;(scroll-bar-mode nil)
+;;(menu-bar-mode nill)
+
 
 (fset 'yes-or-no-p 'y-or-n-p)                            ;以 y/n代表 yes/no
 (blink-cursor-mode -1)                                   ;指针不闪动
