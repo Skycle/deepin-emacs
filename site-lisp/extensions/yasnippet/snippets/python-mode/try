@@ -1,6 +1,9 @@
-#name : try: ... except Exception, e: ...
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: try
+# key: try
+# binding: direct-keybinding
 # --
 try:
-    ${try code}
-except Exception, e:
-    ${except code}	
+    $1
+except:
+    $2

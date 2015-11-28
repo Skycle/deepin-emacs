@@ -1,4 +1,6 @@
-#name : Startup
-#contributor : Rick Moynihan <rick@sourcesmouth.co.uk>
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: startup
+# key: startup
+# binding: direct-keybinding
 # --
-#+STARTUP: ${1:options}
+#+STARTUP: $1

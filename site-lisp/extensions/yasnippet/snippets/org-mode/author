@@ -1,4 +1,6 @@
-#name : Author
-#contributor : Rick Moynihan <rick@sourcesmouth.co.uk>
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: author
+# key: author
+# binding: direct-keybinding
 # --
-#+AUTHOR: ${1:`user-full-name`}
+#+AUTHOR:$1

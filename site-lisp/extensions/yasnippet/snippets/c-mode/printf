@@ -1,5 +1,6 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: printf
-# key: pr
+# key: printf
+# binding: direct-keybinding
 # --
-printf("${1:format string}"${2: ,a0,a1});
+printf ("$1\n",$2);

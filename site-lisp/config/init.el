@@ -2,7 +2,7 @@
   ;; 必须加载的
   (require 'init-elpa)
   (require 'benchmark-init)
-  ;; (require 'theme)
+  (require 'init-theme)
   ;; (require 'init-startup)
   (require 'lazy-set-key)
   (require 'one-key)

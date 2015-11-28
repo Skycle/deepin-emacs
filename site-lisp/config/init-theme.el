@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Emacs ÷˜Ã‚…Ë÷√ ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (set-face-attribute 'default nil :height 130)
-(set-fringe-mode '(0 . 0))              ;Make fringe mini size
+;(set-fringe-mode '(0 . 0))              ;Make fringe mini size
 (setq linum-format (concat " %" (number-to-string (length (number-to-string (count-lines (point-min) (point-max))))) "d "))
 
 (custom-set-variables
@@ -345,4 +345,4 @@
  '(yas/field-highlight-face ((t (:background "grey20" :foreground "gold"))))
  '(yas/mirror-highlight-face ((t (:background "brown" :foreground "white")))))
 
-(provide 'theme)
+(provide 'init-theme)

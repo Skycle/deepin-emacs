@@ -2,3 +2,4 @@
 *.pyc
 site-lisp/extensions/predictive/dict-english.el
 *~
+.yas-compiled-snippets.el
