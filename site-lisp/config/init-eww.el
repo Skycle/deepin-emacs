@@ -1,3 +1,4 @@
+(require 'eww)
 ;; emacs 内置浏览器 EWW
 (with-eval-after-load 'eww
   (custom-set-variables
