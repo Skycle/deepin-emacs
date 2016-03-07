@@ -49,4 +49,9 @@
          (org . t)
          (plantuml . t)
          (makefile . t)
-         (latex . t))))
+         (latex . t)
+         (C . t)
+         ;;(C++ . t)
+         )))
+
+(provide 'init-org-babel)

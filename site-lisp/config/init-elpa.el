@@ -304,6 +304,8 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'anaconda-mode)
 (require-package 'company-anaconda)
 (require-package 'jedi)
+(require-package 'git)
+(require-package 'git-commit)
 ;; (require-package 'emms) 无
 ;; (require-package 'auctex) 无
 

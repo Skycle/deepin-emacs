@@ -31,7 +31,7 @@
   (require 'init-org-gtd)
   (require 'init-org-tex)
   (require 'init-org-key)
-  
+  (require 'init-c-mode)
 
   ;; 可以延后加载的
   (run-with-idle-timer
@@ -52,7 +52,8 @@
        (require 'init-benchmark)
        (require 'init-eww)
        (require 'init-idle)
-;;       (require 'init-c-mode)
+       (require 'init-org-babel)
+       ;;(require 'init-c-mode)
        ))
   )
 

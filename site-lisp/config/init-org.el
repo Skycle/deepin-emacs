@@ -95,7 +95,29 @@
 ;;         ("Todo" ?o "* TODO %?\n  %i\n  %a" "/usr/share/deepin-emacs/Org/Dream.org" "Other") ;;
 ;;         ))                                                                                  ;;
 
+;; 在编辑的时候，就可以在org-mode里面看到语法高亮的效果
+(setq org-src-fontify-natively t)
+;; 让不同级别的标题采用不同大小的字体
+;;(set-face-attribute 'org-level-1 nil :height 1.6 :bold t)
+;;(set-face-attribute 'org-level-2 nil :height 1.4 :bold t)
+;;(set-face-attribute 'org-level-3 nil :height 1.2 :bold t)
 
+;; 不关闭中文输入法，输入章节标题里面的星号
+(defun org-mode-my-init ()
+    ; ......
+  (define-key org-mode-map (kbd "×") (kbd "*"))
+  (define-key org-mode-map (kbd "－") (kbd "-"))
+  )
+(add-hook 'org-mode-hook 'org-mode-my-init)
+
+;; 中英文字体混排时的表格对齐问题
+;;(set-default-font "DejaVu Sans Mono 10")
+;;for linux
+;;(set-fontset-font "fontset-default" 'unicode "WenQuanYi Bitmap Song 12")
+;;(set-fontset-font "fontset-default" 'unicode'("WenQuanYi Zen Hei" . "unicode-ttf"))
+;; for windows
+;;(set-fontset-font "fontset-default" 'unicode "宋体 12") 
+                                             
 (provide 'init-org)
 
 ;;; init-org.el ends here

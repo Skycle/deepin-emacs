@@ -80,9 +80,11 @@
 ;;
 
 ;;; Require
-
+(require 'git)
+(require 'git-commit)
 
 ;;; Code:
+
 
 (defun get-git-user-name ()
   (interactive)
